@@ -43,8 +43,8 @@ document.querySelector('.btn-hold').addEventListener('click', function () {
             nextPlayer();
         }
     }
-   
-})
+
+});
 
 
 function nextPlayer(){
@@ -58,7 +58,7 @@ function nextPlayer(){
     document.querySelector('.player-1-panel').classList.toggle('active');
 
     document.querySelector('.dice').style.display = 'none';
-};
+}
 
 document.querySelector('.btn-new').addEventListener('click', init);
 
